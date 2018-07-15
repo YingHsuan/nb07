@@ -10,7 +10,7 @@ body {
   padding-left: 90px;
 }
 .header .logo {
-  background-image: url('./images/N87logo.png');
+  background-image: url('./images/N87logo-y.png');
   background-position: center;
   background-size: cover;
   height: 118px;
@@ -34,7 +34,7 @@ body {
   color: white;
 }
 .section0 .desc .logo {
-  background-image: url('./images/N87logo.png');
+  background-image: url('./images/N87logo-w.png');
   background-position: center;
   background-size: cover;
   width: 400px;
@@ -164,7 +164,7 @@ body {
   color: white;
 }
 .section8 .desc .logo {
-  background-image: url('./images/N87logo.png');
+  background-image: url('./images/N87logo-w.png');
   background-position: center;
   background-size: cover;
   width: 220px;
