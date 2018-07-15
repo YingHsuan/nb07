@@ -175,9 +175,11 @@ body {
   background-image: url('./images/map.png');
   background-position: center;
   background-size: cover;
-  width: 640px;
-  height: 480px;
+  width: 480px;
+  height: 360px;
   margin: 0px auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .section8 .desc .num{
   color: #FFF33F;
