@@ -75,16 +75,19 @@ body {
   background-image: url('./images/part02_01.jpg');
   background-size: cover; 
   background-position: center;
+  height: 100vh;
 }
 .slide2_2 {
   background-image: url('./images/part02_02.jpg');
   background-size: cover; 
   background-position: center;
+  height: 100vh;
 }
 .slide2_3 {
   background-image: url('./images/part02_03.jpg');
   background-size: cover; 
   background-position: center;
+  height: 100vh;
 }
 .section3 {
   background-image: url('./images/part03.jpg');

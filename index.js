@@ -3,6 +3,11 @@ $('#fullpage').fullpage({
     licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
   });
 
+$('.slick_wrap').slick({
+  dots: true,
+  arrows: false,
+});
+
 $('html').bind('mousewheel DOMMouseScroll', function() {
   var activeSection = fullpage_api.getActiveSection();
   var isFirstOrLast = activeSection.isFirst || activeSection.isLast;
