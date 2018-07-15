@@ -19,6 +19,13 @@ $('html').bind('mousewheel DOMMouseScroll', function() {
 });
 $('.arrow').on('click', function() {
   fullpage_api.moveSectionDown();
+  var activeSection = fullpage_api.getActiveSection();
+  var isFirstOrLast = activeSection.isFirst || activeSection.isLast;
+  if (isFirstOrLast) {
+    $('.header').addClass('hide');
+  } else {
+    $('.header').removeClass('hide');
+  }
 })
 $('.gototop').on('click', function() {
   fullpage_api.moveTo(1);
