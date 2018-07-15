@@ -167,8 +167,8 @@ body {
   background-image: url('./images/N87logo-w.png');
   background-position: center;
   background-size: cover;
-  width: 220px;
-  height: 134px;
+  width: 165px;
+  height: 100px;
   margin: 0px auto;
 }
 .section8 .desc .map {
@@ -178,8 +178,8 @@ body {
   width: 480px;
   height: 360px;
   margin: 0px auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 .section8 .desc .num{
   color: #FFF33F;
@@ -192,7 +192,7 @@ body {
 
 .section8 .desc .phone {
   width: fit-content;
-  padding: 20px;
+  padding: 5px;
   background-color: black;
   margin: auto;
   font-family: palatino;
