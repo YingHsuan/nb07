@@ -172,7 +172,7 @@ body {
   margin: 0px auto;
 }
 .section8 .desc .map {
-  background-image: url('./images/N87logo.png');
+  background-image: url('./images/map.png');
   background-position: center;
   background-size: cover;
   width: 640px;
@@ -290,9 +290,12 @@ body {
 .arrow {
   width: 48px;
   height: 48px;
-  background-color: white;
+  background-image: url('./images/next.png');
 }
 .arrow:hover {
   cursor: pointer;
+}
+.arrow.gototop {
+  background-image: url('./images/top.png');
 }
 /* arrow END */
