@@ -1,6 +1,7 @@
 body {
-  font-family: "Noto Sans TC","微軟正黑體","Microsoft JhengHei",sans-serif;
+  font-family: "Noto Sans TC", "微軟正黑體", "Microsoft JhengHei", sans-serif;
 }
+
 .header {
   position: fixed;
   height: 118px;
@@ -9,6 +10,7 @@ body {
   margin-top: 75px;
   padding-left: 90px;
 }
+
 .header .logo {
   background-image: url('./images/N87logo-y.png');
   background-position: center;
@@ -16,23 +18,27 @@ body {
   height: 118px;
   width: 196px;
 }
+
 .header.hide {
   display: none;
 }
+
 .section {
-    text-align:center;
-  }
+  text-align: center;
+}
 
 .section0 {
   background-image: url('./images/kv.jpg');
   background-size: cover;
   background-position: center;
 }
+
 .section0 .desc {
   margin: auto;
   font-size: 36px;
   color: white;
 }
+
 .section0 .desc .logo {
   background-image: url('./images/N87logo-w.png');
   background-position: center;
@@ -42,10 +48,19 @@ body {
   margin: auto;
   margin-bottom: 40px;
 }
-.section0 .desc .num{
+
+.section0 .desc .num {
   color: #FFF33F;
   font-size: 48px;
   font-family: palatino;
+}
+
+.section0 .desc .pc {
+  display: block;
+}
+
+.section0 .desc .mb {
+  display: none;
 }
 
 .section0 .desc .phone {
@@ -58,6 +73,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .section0 .desc .phone .phone_title {
   font-size: 24px;
   display: flex;
@@ -66,59 +82,67 @@ body {
 
 .section1 {
   background-image: url('./images/part01.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
-
 
 .slide2_1 {
   background-image: url('./images/part02_01.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   height: 100vh;
 }
+
 .slide2_2 {
   background-image: url('./images/part02_02.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   height: 100vh;
 }
+
 .slide2_3 {
   background-image: url('./images/part02_03.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   height: 100vh;
 }
+
 .section3 {
   background-image: url('./images/part03.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
+
 .section4 {
   background-image: url('./images/part04.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
+
 .section5 {
   background-image: url('./images/part05.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
+
 .section6 {
   background-image: url('./images/part06.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
+
 .section7 {
   background-image: url('./images/part07.jpg');
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
+
 .section7 .wrap {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .section7 .wrap .pic {
   display: flex;
   justify-content: space-between;
@@ -127,42 +151,58 @@ body {
   margin-top: 40px;
   width: 1080px;
 }
+
 .section7 .wrap .pic .pic_item {
   width: 320px;
   height: 320px;
 }
+
 .section7 .wrap .pic .pic_item .desc {
   margin-top: 18px;
   color: white;
 }
+
 .section7 .wrap .pic .pic_item .img1 {
   background-image: url('./images/part07_bud01.jpg');
   background-position: center;
   background-size: cover;
   height: 100%;
 }
+
 .section7 .wrap .pic .pic_item .img2 {
   background-image: url('./images/part07_bud02.jpg');
   background-position: center;
   background-size: cover;
   height: 100%;
 }
+
 .section7 .wrap .pic .pic_item .img3 {
   background-image: url('./images/part07_bud03.jpg');
   background-position: center;
   background-size: cover;
   height: 100%;
 }
+
 .section8 {
   background-image: url('./images/kv.jpg');
   background-size: cover;
   background-position: center;
 }
+
 .section8 .desc {
   margin: auto;
   font-size: 36px;
   color: white;
 }
+
+.section8 .desc .pc {
+  display: block;
+}
+
+.section8 .desc .mb {
+  display: none;
+}
+
 .section8 .desc .logo {
   background-image: url('./images/N87logo-w.png');
   background-position: center;
@@ -171,6 +211,7 @@ body {
   height: 100px;
   margin: 0px auto;
 }
+
 .section8 .desc .map {
   background-image: url('./images/map.png');
   background-position: center;
@@ -181,11 +222,13 @@ body {
   margin-top: 22px;
   margin-bottom: 22px;
 }
-.section8 .desc .num{
+
+.section8 .desc .num {
   color: #FFF33F;
   font-size: 48px;
   font-family: palatino;
 }
+
 .section8 .desc .num.white {
   color: white;
 }
@@ -201,6 +244,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .section8 .desc .phone .phone_title {
   font-size: 24px;
   display: flex;
@@ -208,26 +252,31 @@ body {
 }
 
 /* square */
+
 .square_wrap {
   display: flex;
   justify-content: flex-end;
 }
+
 .square {
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
 }
+
 .square.mid {
   justify-content: center;
 }
+
 .square-bg {
   padding-right: 0px;
   width: 800px;
   justify-content: center;
   height: 100vh;
   align-items: center;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
+
 .square .desc {
   width: fit-content;
   border: 1px solid #FFF9DD;
@@ -235,6 +284,11 @@ body {
   padding: 19px;
   font-size: 36px;
 }
+
+.square .desc.mb {
+  display: none;
+}
+
 .square .content {
   width: fit-content;
   text-align: left;
@@ -242,27 +296,34 @@ body {
   font-size: 26px;
   margin-top: 18px;
 }
+
 /* square END */
+
 /* cover */
+
 .cover {
   z-index: 2;
   top: 20%;
   width: 100vw;
 }
+
 .cover.bg {
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   height: 500px;
 }
+
 .cover .desc {
   display: flex;
   justify-content: center;
   align-items: center;
   height: fit-content;
 }
+
 .cover.bg .desc {
   height: 500px;
 }
+
 .cover .square {
   width: fit-content;
   border: 1px solid #FFF9DD;
@@ -271,6 +332,11 @@ body {
   font-size: 36px;
   margin: auto;
 }
+
+.cover .square.mb {
+  display: none;
+}
+
 .cover .content {
   width: fit-content;
   text-align: center;
@@ -278,8 +344,11 @@ body {
   font-size: 26px;
   margin-top: 18px;
 }
+
 /* cover END */
+
 /* arrow  */
+
 .arrow_wrap {
   display: flex;
   justify-content: center;
@@ -289,15 +358,19 @@ body {
   bottom: 30px;
   z-index: 2;
 }
+
 .arrow {
   width: 48px;
   height: 48px;
   background-image: url('./images/next.png');
 }
+
 .arrow:hover {
   cursor: pointer;
 }
+
 .arrow.gototop {
   background-image: url('./images/top.png');
 }
+
 /* arrow END */
