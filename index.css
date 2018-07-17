@@ -12,11 +12,11 @@ body {
 }
 
 .header .logo {
-  background-image: url('./images/N87logo-y.png');
+  background-image: url('./images/logo_x2.png');
   background-position: center;
   background-size: cover;
-  height: 118px;
-  width: 196px;
+  height: 89px;
+  width: 148px;
 }
 
 .header.hide {
@@ -40,7 +40,7 @@ body {
 }
 
 .section0 .desc .logo {
-  background-image: url('./images/N87logo-w.png');
+  background-image: url('./images/kv_logo_x2.png');
   background-position: center;
   background-size: cover;
   width: 400px;
@@ -63,8 +63,16 @@ body {
   display: none;
 }
 
+.section0 .desc .pc .desc-content {
+  background-image: url('./images/kv-tittle_x2.png');
+  background-size: cover;
+  width: 638px;
+  height: 62px;
+  margin: auto;
+}
+
 .section0 .desc .phone {
-  width: 460px;
+  width: 345px;
   background-color: black;
   margin: auto;
   font-family: palatino;
@@ -72,6 +80,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('./images/kv_btn_x2.png');
+  height: 45px;
+  margin-top: 44px;
 }
 
 .section0 .desc .phone .phone_title {
@@ -84,6 +95,19 @@ body {
   background-image: url('./images/part01.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.section1 .square .desc {
+  background-image: url('./images/part01_tittle_x2.png');
+  background-size: cover;
+  width: 502px;
+  height: 60px;
+}
+
+.section2 .cover .square {
+  background-image: url('./images/part02_tittle_x2.png');
+  background-size: cover;
+  width: 336px;
 }
 
 .slide2_1 {
@@ -113,10 +137,23 @@ body {
   background-position: center;
 }
 
+.section3 .square .desc {
+  background-image: url('./images/part03_tittle_x2.png');
+  background-size: cover;
+  width: 372px;
+  height: 60px;
+}
+
 .section4 {
   background-image: url('./images/part04.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.section4 .cover .square {
+  background-image: url('./images/part04_tittle_x2.png');
+  background-size: cover;
+  width: 336px;
 }
 
 .section5 {
@@ -125,16 +162,36 @@ body {
   background-position: center;
 }
 
+.section5 .square .desc {
+  background-image: url('./images/part05_tittle_x2.png');
+  background-size: cover;
+  width: 345px;
+  height: 60px;
+}
+
 .section6 {
   background-image: url('./images/part06.jpg');
   background-size: cover;
   background-position: center;
 }
 
+.section6 .square .desc {
+  background-image: url('./images/part06_tittle_x2.png');
+  background-size: cover;
+  width: 336px;
+  height: 60px;
+}
+
 .section7 {
   background-image: url('./images/part07.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.section7 .cover .square {
+  background-image: url('./images/part07_tittle_x2.png');
+  background-size: cover;
+  width: 285px;
 }
 
 .section7 .wrap {
@@ -149,17 +206,18 @@ body {
   align-items: center;
   margin: 0px auto;
   margin-top: 40px;
-  width: 1080px;
+  width: 808px;
 }
 
 .section7 .wrap .pic .pic_item {
-  width: 320px;
-  height: 320px;
+  width: 240px;
+  height: 240px;
 }
 
 .section7 .wrap .pic .pic_item .desc {
   margin-top: 18px;
   color: white;
+  font-size: 15px;
 }
 
 .section7 .wrap .pic .pic_item .img1 {
@@ -199,12 +257,20 @@ body {
   display: block;
 }
 
+.section8 .desc .pc .desc-content {
+  width: 790px;
+  height: 27px;
+  background-image: url('./images/footer_tittle_x2.png');
+  background-size: cover;
+  margin: 0px auto;
+}
+
 .section8 .desc .mb {
   display: none;
 }
 
 .section8 .desc .logo {
-  background-image: url('./images/N87logo-w.png');
+  background-image: url('./images/footer_logo_x2.png');
   background-position: center;
   background-size: cover;
   width: 165px;
@@ -234,15 +300,12 @@ body {
 }
 
 .section8 .desc .phone {
-  width: fit-content;
-  padding: 5px;
-  background-color: black;
-  margin: auto;
-  font-family: palatino;
-  letter-spacing: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 724px;
+  height: 45px;
+  background-image: url('./images/footer_btn_x2.png');
+  background-size: cover;
+  margin: 0px auto;
+  margin-top: 35px;
 }
 
 .section8 .desc .phone .phone_title {
@@ -278,11 +341,12 @@ body {
 }
 
 .square .desc {
-  width: fit-content;
+  /* width: 502px;
+  height: 60px;
   border: 1px solid #FFF9DD;
   color: #FFF9DD;
   padding: 19px;
-  font-size: 36px;
+  font-size: 36px; */
 }
 
 .square .desc.mb {
@@ -293,7 +357,7 @@ body {
   width: fit-content;
   text-align: left;
   color: white;
-  font-size: 26px;
+  font-size: 15px;
   margin-top: 18px;
 }
 
@@ -325,12 +389,9 @@ body {
 }
 
 .cover .square {
-  width: fit-content;
-  border: 1px solid #FFF9DD;
-  color: #FFF9DD;
-  padding: 19px;
-  font-size: 36px;
+  height: 60px;
   margin: auto;
+  padding: 0px;
 }
 
 .cover .square.mb {
@@ -338,10 +399,10 @@ body {
 }
 
 .cover .content {
-  width: fit-content;
+  /* width: fit-content; */
   text-align: center;
   color: white;
-  font-size: 26px;
+  font-size: 15px;
   margin-top: 18px;
 }
 
