@@ -12,7 +12,7 @@ body {
 }
 
 .header .logo {
-  background-image: url('./images/logo_x2.png');
+  background-image: url("./images/logo_x2.png");
   background-position: center;
   background-size: cover;
   height: 89px;
@@ -28,7 +28,7 @@ body {
 }
 
 .section0 {
-  background-image: url('./images/kv.jpg');
+  background-image: url("./images/kv.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .section0 .desc .logo {
-  background-image: url('./images/kv_logo_x2.png');
+  background-image: url("./images/kv_logo_x2.png");
   background-position: center;
   background-size: cover;
   width: 400px;
@@ -50,7 +50,7 @@ body {
 }
 
 .section0 .desc .num {
-  color: #FFF33F;
+  color: #fff33f;
   font-size: 48px;
   font-family: palatino;
 }
@@ -59,12 +59,8 @@ body {
   display: block;
 }
 
-.section0 .desc .mb {
-  display: none;
-}
-
 .section0 .desc .pc .desc-content {
-  background-image: url('./images/kv-tittle_x2.png');
+  background-image: url("./images/kv-tittle_x2.png");
   background-size: cover;
   width: 638px;
   height: 62px;
@@ -80,7 +76,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('./images/kv_btn_x2.png');
+  background-image: url("./images/kv_btn_x2.png");
   height: 45px;
   margin-top: 44px;
 }
@@ -92,104 +88,104 @@ body {
 }
 
 .section1 {
-  background-image: url('./images/part01.jpg');
+  background-image: url("./images/part01.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .section1 .square .desc {
-  background-image: url('./images/part01_tittle_x2.png');
+  background-image: url("./images/part01_tittle_x2.png");
   background-size: cover;
   width: 502px;
   height: 60px;
 }
 
 .section2 .cover .square {
-  background-image: url('./images/part02_tittle_x2.png');
+  background-image: url("./images/part02_tittle_x2.png");
   background-size: cover;
   width: 336px;
 }
 
 .slide2_1 {
-  background-image: url('./images/part02_01.jpg');
+  background-image: url("./images/part02_01.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
 .slide2_2 {
-  background-image: url('./images/part02_02.jpg');
+  background-image: url("./images/part02_02.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
 .slide2_3 {
-  background-image: url('./images/part02_03.jpg');
+  background-image: url("./images/part02_03.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
 .section3 {
-  background-image: url('./images/part03.jpg');
+  background-image: url("./images/part03.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .section3 .square .desc {
-  background-image: url('./images/part03_tittle_x2.png');
+  background-image: url("./images/part03_tittle_x2.png");
   background-size: cover;
   width: 372px;
   height: 60px;
 }
 
 .section4 {
-  background-image: url('./images/part04.jpg');
+  background-image: url("./images/part04.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .section4 .cover .square {
-  background-image: url('./images/part04_tittle_x2.png');
+  background-image: url("./images/part04_tittle_x2.png");
   background-size: cover;
   width: 336px;
 }
 
 .section5 {
-  background-image: url('./images/part05.jpg');
+  background-image: url("./images/part05.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .section5 .square .desc {
-  background-image: url('./images/part05_tittle_x2.png');
+  background-image: url("./images/part05_tittle_x2.png");
   background-size: cover;
   width: 345px;
   height: 60px;
 }
 
 .section6 {
-  background-image: url('./images/part06.jpg');
+  background-image: url("./images/part06.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .section6 .square .desc {
-  background-image: url('./images/part06_tittle_x2.png');
+  background-image: url("./images/part06_tittle_x2.png");
   background-size: cover;
   width: 336px;
   height: 60px;
 }
 
 .section7 {
-  background-image: url('./images/part07.jpg');
+  background-image: url("./images/part07.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .section7 .cover .square {
-  background-image: url('./images/part07_tittle_x2.png');
+  background-image: url("./images/part07_tittle_x2.png");
   background-size: cover;
   width: 285px;
 }
@@ -221,28 +217,28 @@ body {
 }
 
 .section7 .wrap .pic .pic_item .img1 {
-  background-image: url('./images/part07_bud01.jpg');
+  background-image: url("./images/part07_bud01.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
 }
 
 .section7 .wrap .pic .pic_item .img2 {
-  background-image: url('./images/part07_bud02.jpg');
+  background-image: url("./images/part07_bud02.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
 }
 
 .section7 .wrap .pic .pic_item .img3 {
-  background-image: url('./images/part07_bud03.jpg');
+  background-image: url("./images/part07_bud03.jpg");
   background-position: center;
   background-size: cover;
   height: 100%;
 }
 
 .section8 {
-  background-image: url('./images/kv.jpg');
+  background-image: url("./images/kv.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -260,17 +256,13 @@ body {
 .section8 .desc .pc .desc-content {
   width: 790px;
   height: 27px;
-  background-image: url('./images/footer_tittle_x2.png');
+  background-image: url("./images/footer_tittle_x2.png");
   background-size: cover;
   margin: 0px auto;
 }
 
-.section8 .desc .mb {
-  display: none;
-}
-
 .section8 .desc .logo {
-  background-image: url('./images/footer_logo_x2.png');
+  background-image: url("./images/footer_logo_x2.png");
   background-position: center;
   background-size: cover;
   width: 165px;
@@ -279,7 +271,7 @@ body {
 }
 
 .section8 .desc .map {
-  background-image: url('./images/map.png');
+  background-image: url("./images/map.png");
   background-position: center;
   background-size: cover;
   width: 480px;
@@ -290,7 +282,7 @@ body {
 }
 
 .section8 .desc .num {
-  color: #FFF33F;
+  color: #fff33f;
   font-size: 48px;
   font-family: palatino;
 }
@@ -302,10 +294,13 @@ body {
 .section8 .desc .phone {
   width: 724px;
   height: 45px;
-  background-image: url('./images/footer_btn_x2.png');
+  background-image: url("./images/footer_btn_x2.png");
   background-size: cover;
   margin: 0px auto;
   margin-top: 35px;
+}
+.section8 .desc .phone_m {
+  display: none;
 }
 
 .section8 .desc .phone .phone_title {
@@ -423,7 +418,7 @@ body {
 .arrow {
   width: 48px;
   height: 48px;
-  background-image: url('./images/next.png');
+  background-image: url("./images/next.png");
 }
 
 .arrow:hover {
@@ -431,7 +426,7 @@ body {
 }
 
 .arrow.gototop {
-  background-image: url('./images/top.png');
+  background-image: url("./images/top.png");
 }
 
 /* arrow END */
